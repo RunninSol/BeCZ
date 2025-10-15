@@ -82,7 +82,7 @@ export default function WebGLBackground() {
       const mesh = new THREE.Mesh(geometry, material);
       
       // Find a non-overlapping random position
-      let offset;
+      let offset: { x: number; y: number; z: number };
       let attempts = 0;
       do {
         offset = {
