@@ -49,7 +49,7 @@ export default function WebGLBackground() {
     // Create 5 blobs at random non-overlapping positions
     const blobs: Array<{
       mesh: THREE.Mesh;
-      geometry: THREE.IcosahedronGeometry;
+      geometry: THREE.SphereGeometry;
       originals: any[];
       offset: { x: number; y: number; z: number };
     }> = [];
