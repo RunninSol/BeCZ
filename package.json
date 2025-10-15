@@ -1,0 +1,40 @@
+{
+  "name": "becz",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "batch-transform": "node scripts/batch-transform.js"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "clsx": "^2.1.1",
+    "form-data": "^4.0.4",
+    "framer-motion": "^12.23.24",
+    "gsap": "^3.13.0",
+    "next": "15.5.5",
+    "node-fetch": "^2.7.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-dropzone": "^14.3.8",
+    "react-icons": "^5.5.0",
+    "simplex-noise": "^4.0.3",
+    "swiper": "^12.0.2",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "^0.180.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
